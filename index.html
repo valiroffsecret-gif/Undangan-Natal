@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123b2b">
+<title>Christmas Celebration 2026 | GKDI Pontianak</title>
+<style>
+:root{--pine:#123b2b;--pine2:#1d543c;--cream:#f8f0df;--gold:#c5a15b;--red:#982f32;--ink:#26372d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#102e23;color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+button,input,select{font:inherit}
+.hero{min-height:100vh;display:grid;place-items:center;padding:28px 16px;background:radial-gradient(ellipse at top,#2b6849 0,#123b2b 48%,#09271d 100%);position:relative;overflow:hidden}
+.hero:before,.hero:after{content:"✦  ❄  ✧  ❄  ✦";position:absolute;color:#e8d9b3;opacity:.25;letter-spacing:18px;font-size:22px;white-space:nowrap}
+.hero:before{top:7%;left:-5%;transform:rotate(-12deg)}.hero:after{bottom:8%;right:-7%;transform:rotate(12deg)}
+.invite{width:min(100%,680px);background:var(--cream);border:1px solid var(--gold);outline:1px solid rgba(197,161,91,.45);outline-offset:7px;padding:clamp(22px,5vw,48px);text-align:center;position:relative;box-shadow:0 25px 70px #061b14aa}
+.kicker{letter-spacing:.22em;text-transform:uppercase;color:var(--red);font:700 11px Arial,sans-serif}
+.ornament{font-size:34px;margin:12px 0;color:var(--red)}
+h1{font-size:clamp(42px,10vw,76px);line-height:.9;margin:15px 0 7px;color:var(--pine);font-weight:normal;letter-spacing:.04em}
+.year{font-size:25px;color:var(--gold);letter-spacing:.35em;margin:12px 0}
+.script{font-style:italic;color:var(--red);font-size:clamp(22px,5vw,30px)}
+.lead{max-width:480px;margin:20px auto;color:#5b5a4d;line-height:1.75;font-size:16px}
+.rule{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:25px 0}
+.details{display:grid;grid-template-columns:1fr 1fr;gap:18px;text-align:center;margin:22px 0}
+.detail-label{font:700 10px Arial,sans-serif;letter-spacing:.16em;color:#987638;text-transform:uppercase;margin-bottom:7px}
+.detail-value{font-size:17px;color:var(--pine);line-height:1.5}
+.place{grid-column:1/-1}
+.cta{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:25px}
+.btn{border:0;border-radius:3px;padding:13px 18px;background:var(--pine);color:#fff;text-decoration:none;font:700 12px Arial,sans-serif;letter-spacing:.06em;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--red);transform:translateY(-2px)}
+.btn.secondary{background:transparent;color:var(--pine);border:1px solid var(--pine)}
+section{width:min(100% - 32px,760px);margin:28px auto;background:var(--cream);padding:clamp(22px,5vw,38px);text-align:center}
+section h2{color:var(--pine);font-size:30px;font-weight:normal;margin:0 0 12px}
+section p{line-height:1.7;color:#5b5a4d}
+.schedule{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+.item{padding:18px 10px;border:1px solid #dfcda6;background:#fffaf0}
+.item strong{display:block;color:var(--red);margin-bottom:6px}
+.countdown{display:flex;justify-content:center;gap:10px;margin:20px 0}
+.timebox{background:var(--pine);color:#fff;padding:12px 8px;min-width:65px}
+.timebox b{display:block;font-size:24px;font-weight:normal}.timebox span{font:10px Arial,sans-serif;letter-spacing:.1em}
+form{max-width:450px;margin:20px auto 0;text-align:left}
+label{display:block;font:700 12px Arial,sans-serif;color:var(--pine);margin:14px 0 6px}
+input,select{width:100%;padding:12px;border:1px solid #cdbb91;background:#fffdf7;color:var(--ink);border-radius:3px}
+form .btn{width:100%;margin-top:18px}
+.note{font:11px Arial,sans-serif;color:#82775f;margin-top:12px}
+footer{text-align:center;color:#e9dfc8;padding:25px 15px 40px;font:11px Arial,sans-serif;letter-spacing:.12em}
+@media(max-width:480px){.details{gap:15px}.detail-value{font-size:15px}.schedule{grid-template-columns:1fr}.invite{padding:25px 18px}.countdown{gap:5px}.timebox{min-width:57px}}
+
+.music-control{position:fixed;right:16px;bottom:16px;z-index:20;border:1px solid #c5a15b;background:#123b2b;color:#fff;border-radius:999px;padding:12px 16px;font:700 12px Arial,sans-serif;box-shadow:0 5px 18px #0004;cursor:pointer}
+.opening{position:fixed;inset:0;z-index:30;display:grid;place-items:center;padding:22px;background:radial-gradient(ellipse at top,#2b6849 0,#123b2b 55%,#09271d 100%);transition:opacity .5s,visibility .5s}
+.opening.hidden{opacity:0;visibility:hidden;pointer-events:none}
+.opening-card{width:min(100%,420px);padding:34px 24px;background:#f8f0df;border:1px solid #c5a15b;text-align:center;box-shadow:0 20px 60px #0006}
+.opening-card h2{font-size:34px;font-weight:normal;color:#123b2b;margin:12px 0}
+.opening-card p{line-height:1.6;color:#5b5a4d}
+
+</style>
+</head>
+<body>
+
+<div class="opening" id="opening">
+  <div class="opening-card">
+    <div style="font-size:34px;color:#982f32">❧ ✦ ❧</div>
+    <div class="kicker">Gereja GKDI Pontianak</div>
+    <h2>Christmas<br>Celebration 2026</h2>
+    <p>Anda menerima undangan istimewa. Buka undangan dan nikmati suasana Natal bersama kami.</p>
+    <button class="btn" id="openInvite" type="button">OPEN INVITATION</button>
+    <div class="note">Musik instrumental Natal original</div>
+  </div>
+</div>
+<audio id="christmasMusic" src="instrumental_natal_original_gkdi.wav" loop preload="auto"></audio>
+<button class="music-control" id="musicToggle" type="button" aria-label="Matikan musik">♫ Musik: ON</button>
+
+<header class="hero">
+  <main class="invite">
+    <div class="kicker">Gereja GKDI Pontianak mempersembahkan</div>
+    <div class="ornament">❧ ✦ ❧</div>
+    <h1>CHRISTMAS<br>CELEBRATION</h1>
+    <div class="year">2026</div>
+    <div class="script">Joy to the World</div>
+    <p class="lead">Dengan penuh sukacita, kami mengundang Anda untuk merayakan Natal bersama keluarga besar GKDI Pontianak. Mari bersyukur atas kasih, damai, dan pengharapan yang hadir melalui kelahiran Yesus Kristus.</p>
+    <div class="rule"></div>
+    <div class="details">
+      <div><div class="detail-label">Hari & tanggal</div><div class="detail-value">Jumat<br>25 Desember 2026</div></div>
+      <div><div class="detail-label">Waktu</div><div class="detail-value">18.00 WIB</div></div>
+      <div class="place"><div class="detail-label">Tempat</div><div class="detail-value"><strong>HOTEL BORNEO</strong><br>Pontianak</div></div>
+    </div>
+    <div class="rule"></div>
+    <div class="kicker">Anda diundang</div>
+    <p class="lead" style="margin:12px auto 0">Kehadiran Anda akan menambah sukacita dalam perayaan Natal ini.</p>
+    <div class="cta">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=HOTEL+BORNEO+Pontianak" target="_blank" rel="noopener">LIHAT LOKASI</a>
+      <a class="btn secondary" href="#konfirmasi">KONFIRMASI KEHADIRAN</a>
+    </div>
+  </main>
+</header>
+
+<section>
+  <h2>Rangkaian Perayaan</h2>
+  <p>Satu malam untuk berdoa, bersyukur, dan menikmati kebersamaan dalam kasih Kristus.</p>
+  <div class="schedule">
+    <div class="item"><strong>Doa Natal</strong><span>Waktu untuk berdoa dan mengucap syukur</span></div>
+    <div class="item"><strong>Makan Malam Bersama</strong><span>Menikmati hidangan dan kebersamaan</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Menghitung Hari Menuju Natal</h2>
+  <p>Jumat, 25 Desember 2026 · 18.00 WIB</p>
+  <div class="countdown" aria-live="polite">
+    <div class="timebox"><b id="days">--</b><span>HARI</span></div>
+    <div class="timebox"><b id="hours">--</b><span>JAM</span></div>
+    <div class="timebox"><b id="minutes">--</b><span>MENIT</span></div>
+    <div class="timebox"><b id="seconds">--</b><span>DETIK</span></div>
+  </div>
+</section>
+
+<section id="konfirmasi">
+  <h2>Konfirmasi Kehadiran</h2>
+  <p>Silakan isi konfirmasi berikut. Pesan akan disiapkan untuk dikirim melalui WhatsApp.</p>
+  <form id="rsvp">
+    <label for="name">Nama</label>
+    <input id="name" name="name" autocomplete="name" required placeholder="Nama Anda">
+    <label for="attendance">Konfirmasi</label>
+    <select id="attendance" name="attendance">
+      <option value="Saya akan hadir">Saya akan hadir</option>
+      <option value="Maaf, saya belum bisa hadir">Maaf, saya belum bisa hadir</option>
+    </select>
+    <label for="guests">Jumlah orang (termasuk Anda)</label>
+    <select id="guests" name="guests">
+      <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+    </select>
+    <button class="btn" type="submit">KIRIM KONFIRMASI VIA WHATSAPP</button>
+    <div class="note">Nomor WhatsApp panitia belum dicantumkan. Tombol akan membuka WhatsApp dengan pesan yang siap diteruskan; pilih kontak panitia secara manual.</div>
+  </form>
+</section>
+
+<section>
+  <div class="script">“Glory to God in the highest”</div>
+  <p>Kiranya damai dan kasih Kristus memenuhi hati, keluarga, dan kehidupan kita.</p>
+  <h2 style="color:var(--red)">Merry Christmas 2026</h2>
+</section>
+<footer>GKDI PONTIANAK · CHRISTMAS CELEBRATION 2026</footer>
+
+<script>
+const target = new Date('2026-12-25T18:00:00+07:00').getTime();
+function tick(){
+  let diff=Math.max(0,target-Date.now());
+  const d=Math.floor(diff/86400000); diff%=86400000;
+  const h=Math.floor(diff/3600000); diff%=3600000;
+  const m=Math.floor(diff/60000); const s=Math.floor((diff%60000)/1000);
+  document.getElementById('days').textContent=d;
+  document.getElementById('hours').textContent=String(h).padStart(2,'0');
+  document.getElementById('minutes').textContent=String(m).padStart(2,'0');
+  document.getElementById('seconds').textContent=String(s).padStart(2,'0');
+}
+tick(); setInterval(tick,1000);
+document.getElementById('rsvp').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value.trim();
+  const attendance=document.getElementById('attendance').value;
+  const guests=document.getElementById('guests').value;
+  const msg=`Shalom, panitia GKDI Pontianak. Saya ${name}. ${attendance} untuk Christmas Celebration 2026 pada Jumat, 25 Desember 2026 pukul 18.00 WIB di HOTEL BORNEO. Jumlah orang: ${guests}. Terima kasih.`;
+  window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank','noopener');
+});
+
+const music = document.getElementById('christmasMusic');
+const opening = document.getElementById('opening');
+const musicToggle = document.getElementById('musicToggle');
+let musicOn = true;
+document.getElementById('openInvite').addEventListener('click', async () => {
+  opening.classList.add('hidden');
+  try { await music.play(); musicOn = true; musicToggle.textContent = '♫ Musik: ON'; }
+  catch (e) { musicOn = false; musicToggle.textContent = '♫ Putar musik'; }
+});
+musicToggle.addEventListener('click', async () => {
+  if (music.paused || !musicOn) {
+    try { await music.play(); musicOn = true; musicToggle.textContent = '♫ Musik: ON'; }
+    catch (e) { musicToggle.textContent = '♫ Coba putar lagi'; }
+  } else {
+    music.pause(); musicOn = false; musicToggle.textContent = '♫ Musik: OFF';
+  }
+});
+
+</script>
+</body>
+</html>
